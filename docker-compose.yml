@@ -6,5 +6,5 @@ services:
     volumes:
       - "./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf"
     ports:
-      - 80:80
+      - 81:80
       - 443:443
