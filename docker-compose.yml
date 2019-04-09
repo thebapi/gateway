@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gateway:
+    image: openresty/openresty
+    container_name: gateway_sajib
+    volumes:
+      - "./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf"
+    ports:
+      - 80:80
+      - 443:443
